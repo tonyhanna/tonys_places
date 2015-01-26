@@ -1,0 +1,358 @@
+body {
+	font-family: Helvetica, verdana;
+	background-color: #262626;
+}
+
+#wrapper {
+	background-color: #E58B35;
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: block;
+	min-height: 600px;
+}
+
+#title, .bar {
+	background-color: #5C545C;
+	margin-top: 35px;
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	width: 880px;
+	padding: 5px;
+	padding-left: 15px;
+	color: white;
+}
+#title span, .bar span {
+	color: white;
+}
+#title a, .bar a {
+	color: #00A8A1;
+	text-decoration: none;
+}
+#title a:hover, .bar a:hover {
+	color: yellow;
+}
+
+.pagination {
+	float: right;
+	font-size: small;
+}
+.pagination span {
+	margin: 0 3px 0 3px;
+}
+.pagination .current {
+	color: white;
+}
+
+#logo {
+	margin-top: -10px;
+	float: right;
+	width: 50px;
+	margin-right: 40px;
+}
+
+#menu {
+	margin-left: 15px;
+}
+
+#menu div {
+	min-width: 100px;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 0px;
+	background-color: #FDDAB2;
+	font-size: 12px;
+	text-align: center;
+}
+#menu a {
+	padding: 10px;
+	display: block;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+#menu a:hover {
+	color: blue;	
+}
+
+#content .img_container, #content .img_container_featured, #content .img_container_featured:hover, #content .img_container:visited, #content .img_container_featured:visited {
+	background-color: #FDDAB2;
+	float: left;
+	width: 170px;
+	height: 205px;
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+	display: block;
+	color: black;
+	
+	border: 0px;
+}
+#content .img_container:hover {
+	background-color: yellow;
+}
+#content .img_container_featured a:hover {
+	text-decoration: none;
+}
+
+#content .img_container_featured, #content .img_container_featured:visited {
+	background-color: #00A8A1;
+}
+#content .img_container_featured:hover {
+	background-color: yellow;
+}
+
+#content .img_container_featured .rating, #content .img_container .rating {
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#content .img_container_featured  img, #content .img_container  img {
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+
+#content .img_container_featured .caption, #content .img_container .caption {
+	margin: 0 auto;
+	padding-top: 2px;
+	font-size: 13px;
+	
+	color: white;
+	width: 158px;
+	height: 18px;
+	overflow: hidden;
+	display: block;
+	background-color: #874992;
+	white-space: nowrap;
+}
+
+#content img {
+	display: block;
+	margin-bottom: 0px;
+	width: 158px;
+	height: 140px;
+	border: 0px;
+}
+
+#upload {
+	background-color: #FDDAB2;
+	padding: 10px;
+	font-weight: bold;
+}
+
+/*
+#content figure figcaption {
+	display: block;
+	color: #777777;
+	font-size: 14px;
+	padding-left: 10px;
+	margin-top: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+
+	width: 220px;
+	background-color: #F0F0F0;
+	border-bottom: 2px solid #E6E6E6;
+}*/
+#action {
+	margin-left : 10px;
+	margin-top : 10px;
+	float: left;
+	width: 350px;
+	height: 150px;
+	display: block;
+}
+
+#action a, #action a:hover {
+	color: white;
+}
+#action div {
+	margin-top: 15px;		
+}
+
+.button-submit {
+	min-height: 20px;
+	width: 150px;
+	margin-top: 4px;
+	padding: 0px;
+	padding-top: 1px;
+	height: 8px;
+	background-color: #00A8A1;
+	font-size: 11px;
+	text-align: center;
+	border: 0px;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+}
+.report .button-submit, .report-detail .button-submit {
+	vertical-align: middle;
+	width: 70px;
+	height: 24px;
+	margin: 0 10px 0 0;
+}
+.report-detail .button-submit {
+	margin-top: 5px;
+	float: left;
+}
+
+#message {
+	margin-top: 5px;
+	padding: 3px;
+	background-color: white;
+	color: red;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.report, .report-detail {
+	margin-bottom: 7px;
+}
+.report .message, .report .message-report, .report .message-clear, .report-detail .message, .report-detail .message-report, .report-detail .message-clear {
+	background-color: #FDDAB2;
+	width: 700px;
+	min-height: 16px;
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 3px 7px;
+	color: black;
+}
+.box-report, .box-clear {
+	font-size: smaller;
+	font-weight: bold;
+	padding: 3px;
+	margin-right: 10px;
+}
+.report .message-report, .report-detail .message-report, .box-report {
+	background-color: rgb(255,80,140);
+}
+.report .message-clear, .report-detail .message-clear, .box-clear {
+	background-color: rgb(100,179,248);
+}
+.report .message:hover, .report .message-report:hover, .report .message-clear:hover {
+	background-color: yellow;
+	cursor:pointer;
+}
+.report div {
+	float: left;
+}
+#message-detail {
+	min-height: 380px;
+	margin: 20px;
+}
+.report-detail .message, .report-detail .message-report, .report-detail .message-clear {
+	width: 580px;
+}
+
+table.list tr th {
+    background: gray;
+    padding: 3px 20px 3px 5px;
+}
+table.list tr td {
+    background: white;
+    padding: 3px 20px 3px 5px;
+}
+
+/* login */
+/* CSS Document */
+
+#login-container{
+	width:auto;
+	height:auto;
+    margin-top: 100px;
+}
+
+#failed_login #message {
+    width:268px;
+	height:25px;
+	padding:7px 10px 5px 11px;
+    margin-left: 322px;
+    margin-top: 80px;
+	background-color: transparent;
+	color:red;
+}
+
+#menu_login form{
+	width:247px;
+	height:115px;
+	border:#999 solid 1px;
+	background-color:#fff;
+	color:#000;
+	padding:0 20px 0 22px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+
+#menu_login form h2.mem{
+	display:block;
+	width:223px;
+	font:bold 13px/38px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#083F78;
+	background-color:#fff;
+	background-image:none;
+	padding:0;
+	margin:0;
+	float:left;
+}
+
+#menu_login form input{
+	width:169px;
+	height:16px;
+	border-left:#404040 solid 1px;
+	border-top:#404040 solid 1px;
+	border-right:#D4D0C8 solid 1px;
+	border-bottom:#D4D0C8 solid 1px;
+	background-color:#fff;
+	color:#000;
+	margin:0 0 6px 0;
+	float:right;
+}
+
+#menu_login form label{
+	width:63px;
+	font:normal 11px/22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	float:left;
+}
+
+#menu_login form a.register{
+	width:87px;
+	font:bold 10px/12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#5F7006;
+	background-color:#fff;
+	text-decoration:underline;
+	float:left;
+	margin:3px 0 0 0;
+	padding:0;
+}
+
+#menu_login form a.register:hover{
+	text-decoration:none;
+}
+
+#menu_login form p.div{
+	display:block;
+	width:200px;
+	height:10px;
+	font-size:0;
+	background:url(../images/admin/form_div.gif) 0 0 repeat-x;
+	float:left;
+}
+
+#menu_login form input.login{
+	background:url(../images/admin/btn_login.gif) 0 0 no-repeat;
+	width:26px;
+	height:10px;
+	margin:3px 0 0 0;
+	border:none;
+	cursor:pointer;
+	float:right;
+}

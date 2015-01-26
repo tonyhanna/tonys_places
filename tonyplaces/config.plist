@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Add Venue Finish Text</key>
+	<string>Place has been added. Thank you.</string>
+	<key>Loading Venues Text</key>
+	<string>Locating places near you...</string>
+	<key>Locating You Text</key>
+	<string>Locating you...</string>
+	<key>Logging In Text</key>
+	<string>Hold on...</string>
+	<key>Login Wrong Text</key>
+	<string>Something went wrong.</string>
+</dict>
+</plist>
